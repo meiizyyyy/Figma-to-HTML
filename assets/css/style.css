@@ -3,10 +3,92 @@
 }
 
 html{
-    font-size: 62,5%;
+    font-size: 62.5%;
 }
 
 /* Khôi phục cỡ chữ mặc định theo rem */
-.body{
+body{
     font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* common */
+a{
+    text-decoration: none;
+}
+.main_content{
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    display: inline-block;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 24.5px;
+    background: #171100;
+    padding: 0px 16px;
+    line-height: 50px;
+    min-width: 118px;
+}
+
+/* header */
+.header{
+    background: #ebc1c163;
+}
+
+.header.fixed{
+    position: sticky;
+    top: -20px;
+}
+/* class body là con của header */
+.header .body{
+    display: flex;
+    align-items: center;
+    padding: 36px 0 16px;
+}
+
+.nav{
+    margin-left: auto;
+}
+
+.nav ul{
+    display: flex;
+}
+.nav a{
+    position: relative;
+    color: #5F5B53;
+    font-size: 1.6rem;
+    padding: 8px 21px;
+}
+
+.nav li.active a,
+.nav a:hover{
+    color: #171100;
+    /* font-weight: 600; */
+    text-shadow: 1px 0 0 currentColor;
+
+}
+
+.nav li.active a::after{
+    position: absolute;
+    left: 21px;
+    bottom: 6px;
+    display: block;
+    content: "";
+    width: 12px;
+    height: 2px;
+    border-radius: 1px;
+    background: #171100;
+}
+
+.header .btn-sign-up{
+    min-width: 144px;
+}
+
+.header .action{
+    margin-left: 49px;
 }
