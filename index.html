@@ -1,202 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Sen:wght@700&display=swap" rel="stylesheet">
-    <title>Project - Figma to HTML</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/css/reset.css" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Sen:wght@700&display=swap"
+			rel="stylesheet" />
+		<title>Project - Figma to HTML</title>
+	</head>
+	<body style="height: 10000px">
+		<!-- Header -->
+		<header class="header fixed">
+			<div class="main_content">
+				<div class="body">
+					<!-- Logo -->
+					<img src="./assets/img/Logo.svg" alt="Lesson." class="logo" />
 
-</head>
-<body style="height: 10000px;">
-    <!-- Header -->
-    <header class="header fixed">
-        <div class="main_content">
-            <div class="body">
-                <!-- Logo -->
-                <img src="./assets/img/Logo.svg" alt="Lesson." class="logo">
+					<!-- Nav -->
+					<nav class="nav">
+						<ul>
+							<li class="active">
+								<a href="#!">Home</a>
+							</li>
+							<li>
+								<a href="#!">Courses</a>
+							</li>
+							<li>
+								<a href="#!">Pricing</a>
+							</li>
+							<li>
+								<a href="#!">Reviews</a>
+							</li>
+						</ul>
+					</nav>
 
-                <!-- Nav -->
-                <nav class="nav">
-                    <ul>
-                        <li class="active">
-                            <a href="#!">Home</a>
-                        </li>
-                        <li>
-                            <a href="#!">Courses</a>
-                        </li>
-                        <li>
-                            <a href="#!">Pricing</a>
-                        </li>
-                        <li>
-                            <a href="#!">Reviews</a>
-                        </li>
-                    </ul>
-                </nav>
+					<!-- btn -->
+					<div class="action">
+						<a href="#!" class="btn btn-sign-up">Sign Up</a>
+					</div>
+				</div>
+			</div>
+		</header>
 
-                <!-- btn -->
-                <div class="action">
-                    <a href="#!" class="btn btn-sign-up">Sign Up</a>
-                </div>
-            </div>
-        </div>
-    </header>
+		<!-- main_ -->
+		<main>
+			<!-- hero -->
+			<div class="hero">
+				<div class="main_content">
+					<div class="body">
+						<!-- leftcontent -->
+						<div class="media-block">
+							<img
+								src="https://images.unsplash.com/photo-1721908919500-d33fa8d365d8?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+								alt="Learn without limits and spread knowledge."
+								class="img" />
+							<div class="hero-summary">
+								<!-- 1 -->
+								<div class="item">
+									<div class="icon page">
+										<img src="./assets/img/Orion_page.svg" alt="" />
+									</div>
+									<div class="info">
+										<p class="label">20 Courses</p>
+										<p class="title">UI/UX Design</p>
+									</div>
+								</div>
+								<!-- 2 -->
+								<div class="item">
+									<div class="icon dev">
+										<img src="./assets/img/Orion_code-window.svg" alt="" />
+									</div>
+									<div class="info">
+										<p class="label">20 Courses</p>
+										<p class="title">Development</p>
+									</div>
+								</div>
+								<!-- 3 -->
+								<div class="item">
+									<div class="icon mar">
+										<img src="./assets/img/Orion_megaphone.svg" alt="" />
+									</div>
+									<div class="info">
+										<p class="label">30 Courses</p>
+										<p class="title">Marketing</p>
+									</div>
+								</div>
+							</div>
+						</div>
 
-    <!-- main_ -->
-     <main>
-        <!-- hero -->
-        <div class="hero">
-            <div class="main_content">
-                <div class="body">
-                        <!-- leftcontent -->
-                        <div class="media-block">
-                            <img src="https://images.unsplash.com/photo-1721908919500-d33fa8d365d8?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Learn without limits and spread knowledge." class="img">
-                                <div class="hero-summary">
-                                    <!-- 1 -->
-                                    <div class="item">
-                                        <div class="icon page">
-                                            <img src="./assets/img/Orion_page.svg" alt="">
-                                        </div>
-                                        <div class="info">
-                                            <p class="label">20 Courses</p>
-                                            <p class="title">UI/UX Design</p>
-                                        </div>
-                                    </div>
-                                    <!-- 2 -->
-                                    <div class="item">
-                                        <div class="icon dev">
-                                            <img src="./assets/img/Orion_code-window.svg" alt="">
-                                        </div>
-                                        <div class="info">
-                                            <p class="label">20 Courses</p>
-                                            <p class="title">Development</p>
-                                        </div>
-                                    </div>
-                                    <!-- 3 -->
-                                    <div class="item">
-                                        <div class="icon mar">
-                                            <img src="./assets/img/Orion_megaphone.svg" alt="">
-                                        </div>
-                                        <div class="info">
-                                            <p class="label">30 Courses</p>
-                                            <p class="title">Marketing</p>
-                                        </div>
-                                    </div>
-                                </div>
+						<!-- rightcontent -->
+						<div class="content-block">
+							<h1 class="heading">Learn without limits and spread knowledge.</h1>
+							<p class="desc">
+								Build new skills for that “this is my year” feeling with courses, certificates, and degrees from world-class universities and
+								companies.
+							</p>
+							<div class="cta-gr">
+								<a href="#!" class="btn hero-cta">See Courses</a>
+								<button class="watch-video">
+									<div class="icon">
+										<img src="./assets/img/play.svg" alt="" />
+									</div>
+									<span>Watch Video</span>
+								</button>
+							</div>
+							<p class="desc desc-recent">Recent Engagement</p>
+							<p class="desc stats"><strong>50K</strong> Students <strong>70+</strong> Couses</p>
+						</div>
+					</div>
+				</div>
+			</div>
 
-                        </div>
+			<!-- popular -->
+			<div class="popular">
+				<div class="main_content">
+					<div class="popular-top">
+						<div class="info">
+							<h2 class="heading-lv2">Our popular courses</h2>
+							<p class="desc">Build new skills with new trendy courses and shine for the next future career.</p>
+						</div>
+						<div class="control">
+							<button class="control-btn">
+								<svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M7 1L1 7L7 13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</button>
+							<button class="control-btn">
+								<svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M1 1L7 7L1 13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</button>
+						</div>
+					</div>
 
+					<div class="courses-list">
+						<div class="course-item">
+							<a href="#!"><img src="./assets/img/c1.jpg" alt="Basic web design" class="thumb" /></a>
+							<div class="info">
+								<div class="head">
+									<h3 class="title"><a class="line-clamp break-all" href="#!">Basic web design</a></h3>
+									<div class="rating">
+										<img src="./assets/img/rate.svg" alt="" class="star" />
+										<span class="value">4.5</span>
+									</div>
+								</div>
+								<p class="desc line-clamp line-2 break-all">Get the best course, gain knowledge and shine for your future career.</p>
+								<div class="foot">
+									<span class="price">$120.75</span>
+									<button class="btn btn-book">Book Now</button>
+								</div>
+							</div>
+						</div>
 
-                        <!-- rightcontent -->
-                        <div class="content-block">
-                            <h1 class="heading">Learn without limits and spread knowledge.</h1>
-                            <p class="desc">Build new skills for that “this is my year” feeling with courses, certificates, and degrees from world-class universities and companies.</p>
-                            <div class="cta-gr">
-                                <a href="#!" class="btn hero-cta">See Courses</a>
-                                <button class="watch-video">
-                                    <div class="icon">
-                                        <img src="./assets/img/play.svg" alt="">
-                                    </div>
-                                    <span>Watch Video</span>
-                                </button>
-                            </div>
-                            <p class="desc desc-recent">Recent Engagement</p>
-                            <p class="desc stats">
-                                <strong>50K</strong> Students 
-                                <strong>70+</strong> Couses
-                            </p>
-                        </div>
-                </div>
-            </div>
-        </div>
+						<div class="course-item">
+							<a href="#!"><img src="./assets/img/c2.jpg" alt="UI/UX design" class="thumb" /></a>
+							<div class="info">
+								<div class="head">
+									<h3 class="title"><a class="line-clamp break-all" href="#!">UI/UX design</a></h3>
+									<div class="rating">
+										<img src="./assets/img/rate.svg" alt="" class="star" />
+										<span class="value">4.5</span>
+									</div>
+								</div>
+								<p class="desc line-clamp line-2 break-all">Get the best course, gain knowledge and shine for your future career.</p>
+								<div class="foot">
+									<span class="price">$120.75</span>
+									<button class="btn btn-book">Book Now</button>
+								</div>
+							</div>
+						</div>
 
-            <!-- popular -->
-         <div class="popular">
-            <div class="main_content">
+						<div class="course-item">
+							<a href="#!"><img src="./assets/img/c3.jpg" alt="Web App design" class="thumb" /></a>
+							<div class="info">
+								<div class="head">
+									<h3 class="title"><a class="line-clamp break-all" href="#!">Web App design</a></h3>
+									<div class="rating">
+										<img src="./assets/img/rate.svg" alt="" class="star" />
+										<span class="value">4.5</span>
+									</div>
+								</div>
+								<p class="desc line-clamp line-2 break-all">Get the best course, gain knowledge and shine for your future career.</p>
+								<div class="foot">
+									<span class="price">$120.75</span>
+									<button class="btn btn-book">Book Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-                <div class="popular-top">
-                    <div class="info">
-                        <h2 class="heading-lv2">Our popular courses</h2>
-                        <p class="desc">Build new skills with new trendy courses and shine for the next future career.</p>
-                    </div>
-                    <div class="control">
-                        <button class="control-btn">
-                            <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7 1L1 7L7 13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>    
-                        </button>
-                        <button class="control-btn">
-                            <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
+			<!-- Feedback -->
+			<div class="feedback">
+				<div class="main_content">
+					<div class="feedback-list">
+						<!-- item 1 -->
+						<div class="feedback-item">
+							<!-- left -->
+							<div class="info">
+								<img src="./assets/img/avatar1.jpg" alt="Peter Moor" class="avatar" />
+								<p class="member-name">Peter Moor</p>
+								<p class="desc">Student of Web Design</p>
+								<div class="dots">
+									<span class="dot active"></span>
+									<span class="dot"></span>
+									<span class="dot"></span>
+								</div>
+							</div>
 
-                        </button>
-                    </div>
-                </div>
+							<!-- right -->
+							<div class="content">
+								<img src="./assets/img/vec.svg" alt="" class="open-qoutes" />
+								<blockquote>
+									Not only does my resume look impressive—filled with the names and logos of world-class institutions—but these certificates
+									also bring me closer to my career goals by validating the skills I've learned."
+								</blockquote>
+							</div>
+						</div>
+						<!-- item 2 -->
+						<div class="feedback-item">
+							<!-- left -->
+							<div class="info">
+								<img src="./assets/img/avatar2.jpg" alt="Peter Moor" class="avatar" />
+								<p class="member-name">Peter Moor</p>
+								<p class="desc">Student of Web Design</p>
+								<div class="dots">
+									<span class="dot"></span>
+									<span class="dot active"></span>
+									<span class="dot"></span>
+								</div>
+							</div>
 
-                <div class="courses-list">
-                    <div class="course-item">
-                        <a href="#!"><img src="./assets/img/c1.jpg" alt="Basic web design" class="thumb"></a>
-                        <div class="info">
-                            <div class="head">
-                                <h3 class="title"><a class="line-clamp break-all" href="#!">Basic web design</a></h3>
-                                <div class="rating">
-                                    <img src="./assets/img/rate.svg" alt="" class="star">
-                                    <span class="value">4.5</span>
-                                </div>
-                            </div>
-                            <p class="desc line-clamp line-2 break-all" >Get the best course, gain knowledge and shine for your future career.</p>
-                            <div class="foot">
-                                <span class="price">$120.75</span>
-                                <button class="btn btn-book">Book Now</button>
-                            </div>
-                        </div>
-                    </div>
+							<!-- right -->
+							<div class="content">
+								<img src="./assets/img/vec.svg" alt="" class="open-qoutes" />
+								<blockquote>
+									Not only does my resume look impressive—filled with the names and logos of world-class institutions—but these certificates
+									also bring me closer to my career goals by validating the skills I've learned."
+								</blockquote>
+							</div>
+						</div>
+						<!-- item 3 -->
+						<div class="feedback-item">
+							<!-- left -->
+							<div class="info">
+								<img src="./assets/img/avatar3.jpg" alt="Peter Moor" class="avatar" />
+								<p class="member-name">Peter Moor</p>
+								<p class="desc">Student of Web Design</p>
+								<div class="dots">
+									<span class="dot"></span>
+									<span class="dot"></span>
+									<span class="dot active"></span>
+								</div>
+							</div>
 
-                    <div class="course-item">
-                        <a href="#!"><img src="./assets/img/c2.jpg" alt="UI/UX design" class="thumb"></a>
-                        <div class="info">
-                            <div class="head">
-                                <h3 class="title"><a class="line-clamp break-all" href="#!">UI/UX design</a></h3>
-                                <div class="rating">
-                                    <img src="./assets/img/rate.svg" alt="" class="star">
-                                    <span class="value">4.5</span>
-                                </div>
-                            </div>
-                            <p class="desc line-clamp line-2 break-all">Get the best course, gain knowledge and shine for your future career.</p>
-                            <div class="foot">
-                                <span class="price">$120.75</span>
-                                <button class="btn btn-book">Book Now</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="course-item">
-                        <a href="#!"><img src="./assets/img/c3.jpg" alt="Web App design" class="thumb"></a>
-                        <div class="info">
-                            <div class="head">
-                                <h3 class="title"><a class="line-clamp break-all" href="#!">Web App design</a></h3>
-                                <div class="rating">
-                                    <img src="./assets/img/rate.svg" alt="" class="star">
-                                    <span class="value">4.5</span>
-                                </div>
-                            </div>
-                            <p class="desc line-clamp line-2 break-all">Get the best course, gain knowledge and shine for your future career.</p>
-                            <div class="foot">
-                                <span class="price">$120.75</span>
-                                <button class="btn btn-book">Book Now</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-         </div>
-     </main>
-
-
-</body>
+							<!-- right -->
+							<div class="content">
+								<img src="./assets/img/vec.svg" alt="" class="open-qoutes" />
+								<blockquote>
+									Not only does my resume look impressive—filled with the names and logos of world-class institutions—but these certificates
+									also bring me closer to my career goals by validating the skills I've learned."
+								</blockquote>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
 </html>
